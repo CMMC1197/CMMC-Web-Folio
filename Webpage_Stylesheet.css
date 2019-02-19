@@ -72,22 +72,20 @@ img.d-block {
 }
 
 img.Vectors {
-    /* position: relative; */
+    position: relative;
     display: inline;
     text-decoration: none;
-    padding: 9px;
-    width: 65px;
-    height: 65px;
-    border: none;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
 }
 
 img.Vectors#Git_Margin {
-  width: 65px;
-  height: 65px;
-  /* position: relative; */
+  position: relative;
   display: inline;
   text-decoration: none;
-
+  width: 45px;
+  height: 45px;
 }
 
 input#Submit {
@@ -133,10 +131,14 @@ section.sect_image {
 
 header.Content {
   font-family: "FascinateInline";
-  color: rgb(200, 340, 109);
+  color: rgb(249, 52, 97);
   text-align: center;
-  font-size: 83px;
+  font-size: 34px;
   display: absolute;
+}
+
+button.btn {
+  font-family: "Fascinate";
 }
 
 h1 {
@@ -169,7 +171,7 @@ h4 {
 
 h6 {
   font-family: "FascinateInline";
-  color: rgb(200, 340, 109);
+  color:
   text-align: right;
   justify-content: flex-end;
   font-size: 20px;
