@@ -28,18 +28,8 @@ body {
   transition: 3s;
 }
 
-img.roundedImage {
-  background-image: url("Images/Its_Me.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  text-align: center;
-  justify-content: center;
-  -webkit-border-radius: 300px;
-  -moz-border-radius: 300px;
-  border-radius: 300px;
-  width: 240px;
-  height: 300px;
+div.container {
+  padding: 9px;
 }
 
 img.card-img-top {
@@ -66,14 +56,29 @@ div.card {
   justify-content: center;
 }
 
-img.Vectors {
-  /* position: relative; */
+img.d-block {
   display: inline;
   text-decoration: none;
-  padding: 9px;
-  width: 65px;
-  height: 65px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  object-fit: fill;
+  padding: 0px;
+  width: 165px;
+  height: 765px;
   border: none;
+}
+
+img.Vectors {
+    /* position: relative; */
+    display: inline;
+    text-decoration: none;
+    padding: 9px;
+    width: 65px;
+    height: 65px;
+    border: none;
 }
 
 img.Vectors#Git_Margin {
@@ -146,6 +151,13 @@ h2 {
   color: rgb(65, 34, 250);
   text-align: center;
   font-size: 55px;
+}
+
+p.h4 {
+    font-family: "Fascinate";
+    color: rgb(289, 92, 137);
+    text-align: center;
+    font-size: 25px;
 }
 
 h4 {
