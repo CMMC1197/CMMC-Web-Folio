@@ -1,6 +1,6 @@
 
 body {
-  background-image: url("Images/watercolor_galaxy.jpg");
+  background-image: url("Images/Watercolour_ink.jpg");
   -o-background-size: cover;
   background-size: cover;
   justify-content: center;
@@ -32,17 +32,26 @@ div.container {
   padding: 9px;
 }
 
-img.card-img-top {
-  text-align: center;
-  /* position: relative; */
+div.frm{
+    display: block;
+    margin-left: 21%;
+    text-align: center;
+}
+div.atc_bttn{
   display: inline-block;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
+  margin-left: 5%;
   text-align: center;
-  justify-content: center;
-  height: 180px;
-  width: 240px;
+}
+
+img.profile {
+  width: 250px;
+  height: 270px;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: fill;
+  object-position: top 20%;
+  margin-left: 20%;
+  /* centers the image */
 }
 
 div.card {
@@ -87,6 +96,7 @@ img.Vectors#Git_Margin {
   width: 45px;
   height: 45px;
 }
+
 
 input#Submit {
   display: inline-block;
@@ -155,18 +165,39 @@ h2 {
   font-size: 55px;
 }
 
-p.h4 {
+h3 {
+  font-family: "FascinateInline";
+  color:;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: "FascinateInline";
+  color:;
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: "FascinateInline";
+  color: rgb(200, 340, 109);
+  text-align: ;
+  font-size: 35px;
+}
+
+a.list-group-item {
+  font-family: "Fascinate";
+  color: rgb(200, 340, 109);
+  text-align: ;
+  font-size: 35px;
+}
+
+p {
     font-family: "Fascinate";
     color: rgb(289, 92, 137);
     text-align: center;
     font-size: 25px;
-}
-
-h4 {
-  font-family: "Fascinate";
-  color: rgb(289, 92, 137);
-  text-align: center;
-  font-size: 25px;
 }
 
 h6 {
@@ -181,7 +212,7 @@ p.Paragraph {
   font-family: "Fascinate";
   color: rgb(30, 40, 60);
   text-align: center;
-  font-size: 34px;
+  font-size: 30px;
 }
 
 option {

@@ -18,7 +18,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
 
-
 <head>
   <title>CMMC - Web Folio</title>
   <!--BootstrapCDN-->
@@ -32,10 +31,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
   <link rel="stylesheet" ; type="text/css" ; href="Webpage_Stylesheet.css" ; />
   <link rel="stylesheet" ; type="text/scss" ; href="Sidebar_.scss" ; />
 
-  <!--Paypal-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<!--Background Creative Commons-->
+  <a href="https://www.flickr.com/photos/ravenmagic/7616804522">"Watercolour ink"</a> by
+  <a href="https://www.flickr.com/people/ravenmagic/">Sam Kelly</a> is licensed under
+  <a href="https://creativecommons.org/licenses/by/2.0"> CC BY 2.0 </a>
+
+  <!--JavaScript-->
+  <script type="text/javascript" ; src="Webpage_JavaArray.js" ; async></script>
+  <script type="text/javascript" ; src="Webpage_JavaArray.min.js" ; async></script>
+</head>
 
 <body id="page-top">
 
@@ -55,11 +59,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
         </li>
 
         <li>
-          <a class="js-scroll-trigger" ; href="#Projects" ;>Latest Projects</a>
+          <a class="js-scroll-trigger" ; href="Projects.html" ;>Projects</a>
         </li>
 
         <li>
-          <a class="js-scroll-trigger" ; href="#Resources_" ;>Services</a>
+          <a class="js-scroll-trigger" ; href="Services.html" ;>Services</a>
         <li>
       <ul>
            <!--Search Bar-->
@@ -73,7 +77,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
 
     <!--Contact Form-->
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+   <div>
+     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
         Contact Me
     </button>
     <!--Contact Form Modal-->
@@ -147,6 +152,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
 
     <!-- Top Content -->
 
+<div class="container">
     <!--Carousel-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -187,7 +193,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
         </a>
     </div>
 
-      <div class="container">
               <h1 class="display-4">CMMC Designs</h1>
               <p class="Paragraph">Welcome to CMMC Designs</p>
               <hr class="my-4">
@@ -195,53 +200,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
           <!--Latest Projects-->
           <div>
               <h1 id="Projects">Latest Projects</h1>
-
               <!-- LightWidget Instagram WIDGET -->
               <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
               <iframe src="//lightwidget.com/widgets/49b936e3ea11572b8859c705b4c3efef.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-
           </div>
-      <!-- Services -->
-      <div>
-        <h1 id="Resources_">Services</h1>
-        <p></p>
-
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                    HEY<br>
-                    <small class="text-muted">Interested in my Illustrations? Then I'd be more happy to do a little bit of commission work, for the right price!</small>
-                </p>
-                <!--Paypal-->
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="Y22RJ2NTXCCAG">
-                    <table>
-                        <tr>
-                            <td><input type="hidden" name="on0" value="Commissions">Commissions</input></td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <select name="os0">
-                                    <option value="Face">Face $10.00 USD</option>
-                                    <option value="Torso">Torso $20.00 USD</option>
-                                    <option value="Full Body">Full Body $30.00 USD</option>
-                                </select>
-                            </td>
-                        </tr>
-                    </table>
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-            </div>
-        </div>
 
       </div>
     </div>
   </div>
+</div>
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded js-scroll-trigger" ; style="display: inline;" ; href="#page-top" ;>
       <i class="fa fa-angle-up"></i>
