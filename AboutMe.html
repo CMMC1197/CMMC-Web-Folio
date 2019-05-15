@@ -20,25 +20,34 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
 
 <head>
   <title>CMMC - Web Folio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <!--BootstrapCDN-->
   <meta name="viewport" ; content="width=device-width, initial-scale=1, shrink-to-fit=no" ; />
   <link rel="stylesheet" ; type="text/css" ; href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" ; />
 
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" ; rel="stylesheet" ; />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <!--CSS-->
   <link rel="stylesheet" ; type="text/css" ; href="Webpage_Stylesheet.css" ; />
   <link rel="stylesheet" ; type="text/scss" ; href="Sidebar_.scss" ; />
 
   <!--Background Creative Commons-->
-  <a href="https://www.flickr.com/photos/ravenmagic/7616804522">"Watercolour ink"</a> by
-  <a href="https://www.flickr.com/people/ravenmagic/">Sam Kelly</a> is licensed under
+  <a href="https://www.flickr.com/photos/ravenmagic/7616804522">
+    <!-- "Watercolour ink" --></a>
+  <!-- by -->
+  <a href="https://www.flickr.com/people/ravenmagic/">
+    <!-- Sam Kelly --></a> <!-- is licensed under -->
   <a href="https://creativecommons.org/licenses/by/2.0"> CC BY 2.0 </a>
 
   <!--JavaScript-->
-  <script type="text/javascript" ; src="Webpage_JavaArray.js" ; async></script>
-  <script type="text/javascript" ; src="Webpage_JavaArray.min.js" ; async></script>
+  <script type="text/javascript" ; src="Webpage_JavaArray.js" async;></script>
+  <script type="text/javascript" ; src="Webpage_JavaArray.min.js" async;></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous" async;></script>
 </head>
 
 <body id="page-top">
@@ -77,63 +86,61 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
 
     <!--Contact Form-->
     <!-- Button trigger modal -->
-   <div>
-     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+    <div>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
         Contact Me
-    </button>
+      </button>
+    </div>
     <!--Contact Form Modal-->
     <div class="modal fade" ; id="exampleModalLong" ; tabindex="-1" ; role="dialog" ; aria-labelledby="exampleModalLongTitle" ; aria-hidden="true" ;>
-        <div class="modal-dialog" ; role="document" ;>
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" ; id="exampleModalLongTitle" ;>Enter your Information! I'll get back to you, ASAP~!</h5>
+      <div class="modal-dialog" ; role="document" ;>
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" ; id="exampleModalLongTitle" ;>Enter your Information! I'll get back to you, ASAP~!</h5>
+          </div>
+
+          <div class="modal-body">
+            <form class="Contact_Form_" ; action="index.php" ; method="POST">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" ; id="" ;>First and last name</span>
                 </div>
+                <input type="text" ; name="firstname" ; class="form-control" ; placeholder="Jane" ;>
+                <input type="text" ; name="lastname" : class="form-control" ; placeholder="Doe" ;>
+              </div>
 
-                <div class="modal-body">
-                    <form class="Contact_Form_" ; action="index.php" ; method="POST">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" ; id="" ;>First and last name</span>
-                            </div>
-                            <input type="text" ; name="firstname" ; class="form-control" ; placeholder="Jane" ;>
-                            <input type="text" ; name="lastname" : class="form-control" ; placeholder="Doe" ;>
-                        </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" ; id="inputGroup-sizing-default" ;>Email</span>
+                  <button type="button" ; class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" ; data-toggle="dropdown" ; aria-haspopup="true" ; aria-expanded="false" ;>
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Gmail</a>
+                    <a class="dropdown-item" href="#">Hotmail</a>
+                    <a class="dropdown-item" href="#">Outlook</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" ; href="#" ;>
+                      <;P </a> </div> </div> <input type="email" ; name="email" ; class="form-control" ; aria-describedby="emailHelp" ; placeholder="Enter email" ;>
+                  </div>
 
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" ; id="inputGroup-sizing-default" ;>Email</span>
-                                <button type="button" ; class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" ; data-toggle="dropdown" ; aria-haspopup="true" ; aria-expanded="false" ;>
-                                    <span class="sr-only">Toggle Dropdown</span>
-                                </button>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Gmail</a>
-                                    <a class="dropdown-item" href="#">Hotmail</a>
-                                    <a class="dropdown-item" href="#">Outlook</a>
-                                    <div role="separator" class="dropdown-divider"></div>
-                                    <a class="dropdown-item" ; href="#" ;>
-                                        <;P
-                                    </a>
-                                </div>
-                            </div> <input type="email" ; name="email" ; class="form-control" ; aria-describedby="emailHelp" ; placeholder="Enter email" ;>
-                        </div>
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" ; id="" ;>Subject</span>
+                    <input type="text" ; name="subject" ; placeholder="Subject" ;id="inputGroup-sizing-default" ;>
+                  </div>
+                  <div class="form-group">
+                    <textarea name="message" ; class="form-control" ; id="exampleFormControlTextarea3" ; placeholder="Type your message here!" ; rows="10" ;></textarea>
+                  </div>
 
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" ; id="" ;>Subject</span>
-                            <input type="text" ; name="subject" ; placeholder="Subject" ;id="inputGroup-sizing-default" ;>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" ; class="form-control" ; id="exampleFormControlTextarea3" ; placeholder="Type your message here!" ; rows="10" ;></textarea>
-                        </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                  </div>
+            </form>
+          </div>
 
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button class="btn btn-primary" type="submit">Submit form</button>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
         </div>
+      </div>
     </div>
 
 
@@ -150,44 +157,72 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
 
   <!--Top Content-->
   <div class="container">
-    <!-- About Me -->
+
+    <!-- About Me Horizontal Nav-->
     <div class="jumbotron jumbotron-fluid">
-      <div class="row" class="container">
-        <div class="col-4">
-          <div class="list-group" id="list-tab" role="tablist">
-              <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-              <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-              <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-              <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+      <!-- Nav a-tag Links -->
+      <div class="row">
+        <div class="col-3">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+              <h4>Profile</h4>
+            </a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+              <h4>Experience</h4>
+            </a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+              <h4>Extra Carriculars</h4>
+            </a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+              <h4>Skills</h4>
+            </a>
           </div>
         </div>
 
-        <div class="col-8">
-          <div class="tab-content" "class="row"" id="nav-tabContent">
-            <div class="row" class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-              <div class="col-6">
-                <p>I'm trying to prove a point here!</p>
+        <!-- Nav Bodies Content -->
+        <div class="col-9" style="background-color: rgb(30, 40, 60);" ;>
+          <div class="tab-content" id="v-pills-tab Content">
+            <div class="tab-pane fade show active" ; id="v-pills-home" ; role="tabpanel" ; aria-labelledby="v-pills-home-tab" ;>
+              <div class="card mb-3" style="max-width: 1040px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img class="profile"; src="Images/ItsaMe.jpg"; class="card-img"; alt="ProfilePic">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body" class="a_tag_nav">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-4">
-                <img class="profile" src="Images/ItsaMe.jpg" class="rounded" alt="...">
-              </div>
+              <p>...</p>
             </div>
 
-            <div class="row" class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <p>...</p>
             </div>
 
-            <div class="row" class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <p>...</p>
             </div>
 
-            <div class="row" class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <p>...</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
   </div>
+
+  <footer>
+    <div class="container-fluid fixed-bottom" ; style="background-color: rgb(30, 40, 60);" ;>
+      <p>...</p>
+    </div>
+  </footer>
+
 
   <!-- Scroll to Top Button-->
   <a class="scroll-to-top rounded js-scroll-trigger" ; style="display: inline;" ; href="#page-top" ;>
@@ -196,11 +231,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ; integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" ; crossorigin="anonymous" ;></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ; integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" ; crossorigin="anonymous" ;></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" ; integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" ; crossorigin="anonymous" ;></script>
-  <script type="text/javascript" ; src="Webpage_JavaArray.js" ;></script>
-  <script type="text/javascript" ; src="Webpage_JavaArray.min.js" ;></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ; integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" ; crossorigin="anonymous" async;></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ; integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" ; crossorigin="anonymous" async;></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" ; integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" ; crossorigin="anonymous" async;></script>
 </body>
 
 </html>

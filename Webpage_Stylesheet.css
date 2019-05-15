@@ -32,6 +32,10 @@ div.container {
   padding: 9px;
 }
 
+.modal-backdrop {
+  position:unset !important;
+}
+
 div.frm{
     display: block;
     margin-left: 21%;
@@ -50,8 +54,19 @@ img.profile {
   border-radius: 50%;
   object-fit: fill;
   object-position: top 20%;
-  margin-left: 20%;
+  margin-left: -80%;
   /* centers the image */
+}
+
+div.a_tag_nav {
+  text-align: ;
+  /* position: relative; */
+  display: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  text-align: ;
+  justify-content: ;
 }
 
 div.card {
@@ -167,22 +182,15 @@ h2 {
 
 h3 {
   font-family: "FascinateInline";
-  color:;
-  text-align: center;
-  font-size: 40px;
-}
-
-h3 {
-  font-family: "FascinateInline";
-  color:;
+  color: rgb(200, 340, 109);
   text-align: center;
   font-size: 40px;
 }
 
 h4 {
   font-family: "FascinateInline";
-  color: rgb(200, 340, 109);
-  text-align: ;
+  color:rgb(68, 30, 250);
+  text-align: center;
   font-size: 35px;
 }
 
